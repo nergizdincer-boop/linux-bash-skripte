@@ -15,3 +15,11 @@ Ein einfaches Diagnoseskript, das wichtige Systemparameter auf einen Blick ausgi
 ```bash
 chmod +x system_info.sh
 ./system_info.sh
+
+### 2. `check_server.sh`
+Ein Netzwerk-Prüfskript mit Bedingungsprüfung (`if/else`), das testet, ob ein Zielserver (z. B. `google.com`) online und per Ping erreichbar ist.
+
+#### Nutzung:
+```bash
+chmod +x check_server.sh
+./check_server.sh
